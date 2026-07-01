@@ -1,0 +1,6 @@
+{
+  "name": "온국민크루즈 예약 상담 신청",
+  "description": "기존 홈페이지에 통합 가능한 50-70대 고객 맞춤형 고급 크루즈 여행 예약 상담 신청 랜딩 페이지",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
