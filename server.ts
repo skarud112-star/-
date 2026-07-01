@@ -680,4 +680,14 @@ async function startServer() {
   });
 }
 
-startServer();
+export { app };
+
+const isMainModule = process.argv[1] && (
+  process.argv[1].endsWith('server.ts') || 
+  process.argv[1].endsWith('server.js') || 
+  process.argv[1].endsWith('server.cjs')
+);
+
+if (isMainModule) {
+  startServer();
+}
